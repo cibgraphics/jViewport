@@ -4,7 +4,7 @@
 
 jViewport is a jQuery plugin to aid in responsive design. It allows you to see the width of the window in real time. If you adjust the widow size, it will auto update with the correct measurements.
 
-## Any dependancies?
+## Any dependencies?
 
 Just jQuery.
 
