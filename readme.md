@@ -10,11 +10,7 @@ Just jQuery.
 
 ## Ok, good to go. How do I use it.
 
-Grab the latest copy from Github and include it into your website. If you are placing it in a js folder it would be something like this:
-
-<pre>
-  <script src="js/jquery.jviewport-minified.js"></script>
-</pre>
+Grab the latest copy from Github and include it into your website.
 
 After that just initialize it. No selector is needed. It will do everything by itself.
 
