@@ -68,7 +68,7 @@ Below are a list of options what value they take and what the default setting is
     <td>display</td><td>boolean</td><td>true</td><td>Displays container. Setting to false turns the plugin off</td>
   </tr>
 	<tr>
-    <td>device</td><td>boolean</td><td>true</td><td>If true, displays the device the current width is in range of</td>
+    <td>device</td><td>boolean</td><td>true</td><td>(NEW) If true, displays the device the current width is in range of</td>
   </tr>
 </table>
 
