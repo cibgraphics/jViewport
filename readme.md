@@ -87,3 +87,9 @@ Version 0.2
 
 Version 0.1
 * Initial code
+
+## Wish List Features
+
+This is more of a wish list and doesn't really say what I am currently working on
+* Toggle button for Firefox's Responsive Design Tool
+* Feature to mimic Firefox's Responsive Design Tool but have it work in all modern browsers
