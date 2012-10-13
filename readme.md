@@ -2,13 +2,17 @@
 
 ## What is jViewport?
 
-jViewport is a jQuery plugin to aid in responsive design. It allows you to see the width of the window in real time. If you adjust the widow size, it will auto update with the correct measurements. jViewport will also display a device that the current width is in range of. View a demo at http://cibgraphics.com/workshop/jviewport/
+jViewport is a jQuery plugin to aid in responsive design. It allows you to see the width of the window in real time. If you adjust the widow size, it will auto update with the correct measurements. jViewport will also display a device that the current width is in range of.
+
+## Demo
+
+View a demo at http://cibgraphics.com/workshop/jviewport/
 
 ## Any dependencies?
 
 Just jQuery.
 
-## Ok, good to go. How do I use it.
+## Ok, good to go. How do I use it?
 
 Grab the latest copy from Github and include it into your website.
 
