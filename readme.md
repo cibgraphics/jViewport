@@ -65,6 +65,9 @@ Below are a list of options what value they take and what the default setting is
     <td>height</td><td>integer</td><td>25</td><td>Height of the container. Also controls line-height</td>
   </tr>
   <tr>
-    <td>display</td><td>boolean</td><td>true</td><td>Displays container. Setting to false turns the plugin off.</td>
+    <td>display</td><td>boolean</td><td>true</td><td>Displays container. Setting to false turns the plugin off</td>
+  </tr>
+	<tr>
+    <td>device</td><td>boolean</td><td>true</td><td>If true, displays the device the current width is in range of</td>
   </tr>
 </table>
