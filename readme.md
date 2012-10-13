@@ -71,3 +71,19 @@ Below are a list of options what value they take and what the default setting is
     <td>device</td><td>boolean</td><td>true</td><td>If true, displays the device the current width is in range of</td>
   </tr>
 </table>
+
+## Changelog
+
+Version 0.4
+* New Feature: Device ranges
+* Updated default text color
+* Took out double window resize call
+
+Version 0.3
+* Added options
+
+Version 0.2
+* Self running plugin
+
+Version 0.1
+* Initial code
