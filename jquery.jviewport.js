@@ -31,7 +31,7 @@
          position         : 'fixed',
          backgroundColor  : '#333',
          fontSize         : 11,
-         textColor        : '#6a9233',
+         textColor        : '#85afc3',
          height           : 25,
          display          : true,
          

@@ -59,7 +59,7 @@ Below are a list of options what value they take and what the default setting is
     <td>fontSize</td><td>integer</td><td>11</td><td>Font size</td>
   </tr>
   <tr>
-    <td>textColor</td><td>string</td><td>#6a9233</td><td>Text color</td>
+    <td>textColor</td><td>string</td><td>#85afc3</td><td>Text color</td>
   </tr>
   <tr>
     <td>height</td><td>integer</td><td>25</td><td>Height of the container. Also controls line-height</td>
