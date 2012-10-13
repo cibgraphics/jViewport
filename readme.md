@@ -1,4 +1,4 @@
-# jViewport v0.3
+# jViewport v0.4
 
 ## What is jViewport?
 
