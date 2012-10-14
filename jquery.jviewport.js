@@ -103,7 +103,7 @@
               device = 'iPad Portrait';
             }
             if (w <= 600) {
-              device = 'Kindle Fire Landscape';
+              device = 'Kindle Fire Portrait';
             }
             if (w <= 480) {
               device = 'iPhone Landscape';
