@@ -79,7 +79,8 @@ Below are a list of options what value they take and what the default setting is
 ## Changelog
 
 Version 0.4.1
-* fixed device calculation
+* Fixed device calculation
+* Fixed device names
 
 Version 0.4
 * New Feature: Device ranges
