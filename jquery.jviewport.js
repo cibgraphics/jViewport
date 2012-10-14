@@ -109,7 +109,7 @@
               device = 'iPhone Landscape';
             }
             if (w <= 320) {
-              device = 'iPad Portrait';
+              device = 'iPhone Portrait';
             }
             if (w <= 200) {
               device = 'Too small to worry about'
