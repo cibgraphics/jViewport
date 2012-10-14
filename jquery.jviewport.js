@@ -84,34 +84,34 @@
 
           // Get the range of what device it falls under
           function devices(w) {
-            if (w < 1400 || w > 1400) {
+            if (w <= 1400 || w > 1400) {
               device = 'Widescreen';
             }
-            if (w < 1280) {
+            if (w <= 1280) {
               device = 'Desktop';
             }
-            if (w < 1080) {
+            if (w <= 1080) {
               device = 'High Definition';
             }
-            if (w < 1024) {
+            if (w <= 1024) {
               device = 'iPad Landscape';
             }
-            if (w < 980) {
+            if (w <= 980) {
               device = 'Kindle Fire Landscape';
             }
-            if (w < 768) {
+            if (w <= 768) {
               device = 'iPad Portrait';
             }
-            if (w < 600) {
+            if (w <= 600) {
               device = 'Kindle Fire Landscape';
             }
-            if (w < 480) {
+            if (w <= 480) {
               device = 'iPhone Landscape';
             }
-            if (w < 320) {
+            if (w <= 320) {
               device = 'iPad Portrait';
             }
-            if (w < 200) {
+            if (w <= 200) {
               device = 'Too small to worry about'
             }
             return ' (' + device + ')';
