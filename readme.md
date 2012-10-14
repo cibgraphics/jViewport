@@ -1,4 +1,4 @@
-# jViewport v0.4
+# jViewport v0.4.1
 
 ## What is jViewport?
 
@@ -77,6 +77,9 @@ Below are a list of options what value they take and what the default setting is
 </table>
 
 ## Changelog
+
+Version 0.4.1
+* fixed device calculation
 
 Version 0.4
 * New Feature: Device ranges

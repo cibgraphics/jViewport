@@ -1,5 +1,5 @@
 /*
-  Version 0.4 jViewport
+  Version 0.4.1 jViewport
   Copyright (c) 2012 Christopher Bishop, www.cibgraphics.com Cibgraphics Design Studio
   
   Permission is hereby granted, free of charge, to any person obtaining
