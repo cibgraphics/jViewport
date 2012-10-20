@@ -1,5 +1,5 @@
 /*
-  Version 0.4.1 jViewport
+  Version 0.4.2 jViewport
   Copyright (c) 2012 Christopher Bishop, www.cibgraphics.com Cibgraphics Design Studio
   
   Permission is hereby granted, free of charge, to any person obtaining
@@ -95,9 +95,6 @@
             }
             if (w <= 1024) {
               device = 'iPad Landscape';
-            }
-            if (w <= 980) {
-              device = 'Kindle Fire Landscape';
             }
             if (w <= 768) {
               device = 'iPad Portrait';
