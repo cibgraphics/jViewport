@@ -1,5 +1,5 @@
 /*
-  Version 0.4.2 jViewport
+  Version 0.5 jViewport
   Copyright (c) 2012 Christopher Bishop, www.cibgraphics.com Cibgraphics Design Studio
   
   Permission is hereby granted, free of charge, to any person obtaining
@@ -47,6 +47,19 @@
       // If the display is true, run plugin
       if (options.display) {
         
+        function scrollbarWidth() { 
+          var div = $('<div style="width:50px;height:50px;overflow:hidden;position:absolute;top:-200px;left:-200px;"><div style="height:100px;"></div>'); 
+          // Append our div, do our calculation and then remove it 
+          $('body').append(div); 
+          var w1 = $('div', div).innerWidth(); 
+          div.css('overflow-y', 'scroll'); 
+          var w2 = $('div', div).innerWidth(); 
+          $(div).remove(); 
+          return (w1 - w2);
+        }
+        
+        $('html, body').css('-webkit-transform-style', 'flat');
+        
         // Sets the Selector to some base CSS This makes sure there is room for the plugin without destroying users layout
         $this.css({
           'position': 'relative',
@@ -64,7 +77,7 @@
            'bottom' : '0',
            'width': '100%',
            'line-height': options.height + 'px',
-           'font-family': 'Arial',
+           'font-family': 'Veranda, Arial, Helvetica, sans-serif',
            'text-transform' : 'none',
            'letter-spacing': 0
         });
@@ -74,17 +87,38 @@
 
         // When the window resizes run the math and functions that are to be displayed
         $(window).resize(function() {
+          
+          html = $('html');
+          body = $(options.selector);
+
+          htmlMargin = html.css('margin-left').replace('px', '');
+          htmlpadding = html.css('padding-left').replace('px', '');
+          bodyMargin = body.css('margin-left').replace('px', '');
+          bodypadding = body.css('padding-left').replace('px', '');
+          
+          htmlLeft = parseFloat(htmlMargin) + parseFloat(htmlpadding);
+          bodyLeft = parseFloat(bodyMargin) + parseFloat(bodypadding);
+          leftNum = htmlLeft + bodyLeft;
+          
+          $('.jviewport').css('margin-left', '-' + Math.ceil(leftNum) + 'px')
   
           var device = null;
 
-          // Calculate site width based on window (might change later, this has proved buggy in some browser)
+          // Calculate site width based on window (might change later, this has proved buggy in some browsers)
           function siteWidth() {
-            return siteWidth = $(window).width();
+            if ($(window).height() < $(document).height()) {
+              return siteWidth = $(window).width() + scrollbarWidth();
+            } else {
+              return siteWidth = $(window).width();
+            }
           }
 
           // Get the range of what device it falls under
           function devices(w) {
-            if (w <= 1400 || w > 1400) {
+            if (w > 2000) {
+              device = 'Seriously? What are you testing for?';
+            }
+            if (w <= 1400 || w < 2000) {
               device = 'Widescreen';
             }
             if (w <= 1280) {

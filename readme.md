@@ -78,6 +78,12 @@ Below are a list of options what value they take and what the default setting is
 
 ## Changelog
 
+Version 0.5
+* Better calculation of Viewport
+* Better font display
+* Better rendering if user has margin or padding on HTML or Body elements
+* Better rendering if page has vertical scrollbars or not
+
 Version 0.4.2
 * Fixed wrong size for Kindle Fire
 
